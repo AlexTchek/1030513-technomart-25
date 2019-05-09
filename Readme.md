@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Александр](https://up.htmlacademy.ru/htmlcss/25/user/1030513).
-* Наставник: `Неизвестно`.
+* Наставник: [Егор Глебов] (https://htmlacademy.ru/profile/beast).
 
 ---
 
