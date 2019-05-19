@@ -102,14 +102,31 @@
     </footer>
 
     <section class="modal modal-write-us">
-      <!-- Здесь будет форма -->
       <h2 class="visually-hidden">Напишите нам</h2>
-      <span class="modal-close">x</span>
+      <form class="write-us" method="GET" action="https://echo.htmlacademy.ru">
+        <label>
+          Ваше имя:
+          <input type="text" placeholder="Имя Фамилия" name="name">
+        </label>
+        <label>
+          Ваш e-mail:
+          <input type="email" placeholder="email@example.com" name="email">
+        </label>
+        <label>
+          Текст письма:
+          <input type="text" placeholder="В свободной форме" name="text">
+        </label>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
     </section>
 
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
-      <span class="modal-close">x</span>
+      <form class="write-us" method="GET" action="https://echo.htmlacademy.ru">
+        <img src="img/map.png" width="940" height="446" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
     </section>
   </body>
 </html>
