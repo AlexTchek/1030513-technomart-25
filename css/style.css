@@ -15,13 +15,29 @@ input {
   padding: 10px 15px;
 }
 
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #293449;
+}
 .main-header-top {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  width: 940px;
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
-  background-color: #293449;
+  background-color: inherit;
 }
 
+.main-header-top a {
+  width: 150px;
+  padding: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
 .main-header-top input::placeholder { color: #ffffff; }
 .main-header-top input::-moz-placeholder { color: #ffffff; opacity:1; }
 .main-header-topc input::-webkit-input-placeholder { color: #ffffff; }
@@ -35,10 +51,11 @@ input {
   background-color: #212a3a;
 }
 
-.logo {
+a.logo {
+  width: 220px;
+  text-transform: uppercase;
   color: #ffffff;
   background-color: #ee3643;
-  text-transform: uppercase;
 }
 
 a.main-header-logo:focus,
@@ -68,18 +85,41 @@ a.main-header-order:hover {
   background-color: #f4f7f9;
 }
 
+.main-header-middle-wrapper {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 47px;
+  padding-bottom: 42px;
+}
 
 .main-header-description {
+  box-sizing: border-box;
+  padding: 0 50px;
+  width: 300px;
   font-style: italic;
 }
 
+.main-header-address-wrapper {
+  width: 300px;
+}
+
 .main-header-phone {
+  width: 300px;
+  height: 45px;
+  padding: 0 15px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
   font-size: 21px;
   line-height: 21px;
   border: 3px solid white;
 }
 
 .main-header-address {
+  margin: 0 auto;
+  padding-top: 9px;
+  text-align: center;
   font-size: 14px;
   line-height: 24px;
   color: #32425c;
@@ -99,12 +139,30 @@ button.header-bottom-button:hover {
 }
 
 .main-navigation {
+  width: 940px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+  box-sizing: border-box;
   color:#ffffff;
   background-color: #32425c;
+  border-bottom: 5px solid #293449;
+}
+
+.main-navigation-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.main-navigation li {
+  padding: 16px 30px;
 }
 
 .main-header-bottom ul,
 .main-navigation ul {
+  /* background: rgba(234, 255, 45, 0.2);
+  box-shadow: inset 0 0 0 2px rgb(234, 255, 45); */
+  padding-inline-start: 0px;
   list-style: none;
 }
 
@@ -113,10 +171,12 @@ button.header-bottom-button:hover {
   color: #ffffff;
 }
 
-.main-navigation a:focus,
-.main-navigation a:hover {
+.main-navigation li:focus,
+.main-navigation li:hover {
   background-color: #293449;
 }
+
+
 
 h2 {
   font-size: 30px;
