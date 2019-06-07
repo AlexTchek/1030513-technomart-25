@@ -133,6 +133,7 @@ a.main-header-logo:hover {
 .main-header-top input {
   width: 95%;
   padding: 11px;
+  color: inherit;
   background-color: transparent;
   border: none;
 }
