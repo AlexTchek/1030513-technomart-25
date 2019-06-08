@@ -555,6 +555,20 @@ a.main-footer-logo:hover {
   color: black;
 }
 
+.catalog-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.catalog-item {
+  width: 220px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
 .catalog-item-old-price {
   font-size: 17x;
   line-height: 18px;
