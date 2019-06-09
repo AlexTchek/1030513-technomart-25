@@ -622,6 +622,7 @@ a.main-footer-logo:hover {
 }
 
 .filter-button {
+  width: 140px;
   padding: 15px;
   font-size: 13px;
   line-height: 18px;
@@ -692,12 +693,68 @@ a.main-footer-logo:hover {
 }
 
 .catalog-item {
+  position: relative;
+  display: inline-block;
+
   width: 220px;
   margin-bottom: 20px;
   margin-right: 20px;
 
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+
   background-color: transparent;
   box-shadow: inset 0 0 0 1px #e5e5e5;
+}
+
+.catalog-item .actions {
+  display: none;
+}
+
+.catalog-item:hover .actions {
+  display: block;
+}
+
+.catalog-item .actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 218px;
+  height: 88px;
+  padding: 40px 0;
+  margin: 1px;
+
+  background-color: rgba(255,255,255,0.9);
+  z-index: 10;
+}
+
+.catalog-item .actions .buy,
+.catalog-item .actions .bookmark {
+  display: block;
+  width: 129px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  padding: 7px 0;
+
+  background-color: #63a63e;
+  border: 3px solid #63a63e;
+  border-bottom-color: #367315;
+  border-radius:3px;
+
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Cuprum", sans-serif;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.catalog-item .actions .bookmark {
+  color: #32425c;
+  background: white;
+  border-bottom-color: #63a63e;
 }
 
 .catalog-item:nth-child(3n) {
@@ -705,7 +762,11 @@ a.main-footer-logo:hover {
 }
 
 .catalog-item-old-price {
-  font-size: 17x;
+  min-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+  font-size: 17px;
   line-height: 18px;
   text-decoration: line-through;
   text-transform: uppercase;
@@ -713,14 +774,39 @@ a.main-footer-logo:hover {
 
 }
 
-.catalog-item-price button{
-  font-size: 17x;
+.catalog-item img {
+  padding-left: 1px;
+  padding-top: 1px;
+  max-width: 100%;
+}
+
+.catalog-item-price {
+  position: relative;
+  width: 80px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  font-size: 17px;
   line-height: 18px;
   text-transform: uppercase;
-  background-color: #ee3643;
+
   color: white;
-  border: 3px solid #ee3643;
+  background: #ee3643;
   border-radius: 3px;
+}
+
+.catalog-item-price:after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  right: -20px;
+
+  width: 0;
+  height: 0;
+
+  border: 19px solid white;
+  border-left-color: #ee3643;
 }
 
 .catalog ul {
