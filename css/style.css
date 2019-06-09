@@ -541,7 +541,7 @@ a.main-footer-logo:hover {
 .filter legend {
   font-size: 17px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .filter-option {
@@ -677,8 +677,10 @@ a.main-footer-logo:hover {
 }
 
 .catalog h3 {
-  font-size: 18x;
+  margin: 0 15px;
+  font-size: 18px;
   line-height: 20px;
+  font-weight: bold;
   color: black;
 }
 
@@ -817,7 +819,7 @@ a.main-footer-logo:hover {
   display: flex;
   margin: 0;
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 55px;
 }
 
 .pagination-item {
