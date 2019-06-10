@@ -161,19 +161,23 @@
     <section class="modal modal-write-us visually-hidden">
       <h2 class="visually-hidden">Напишите нам</h2>
       <form method="GET" action="https://echo.htmlacademy.ru">
-        <label>
-          Ваше имя:
-          <input type="text" placeholder="Имя Фамилия" name="name">
-        </label>
-        <label>
-          Ваш e-mail:
-          <input type="email" placeholder="email@example.com" name="email">
-        </label>
-        <label>
-          Текст письма:
-          <input type="text" placeholder="В свободной форме" name="text">
-        </label>
-        <button class="button" type="submit">Отправить</button>
+        <div class="write-us-inputs-wrapper">
+          <label>
+            Ваше имя:
+            <input type="text" placeholder="Имя Фамилия" name="name">
+          </label>
+          <label>
+            Ваш e-mail:
+            <input type="email" placeholder="email@example.com" name="email">
+          </label>
+          <label>
+            Текст письма:
+            <textarea class="write-us-text" rows="5" placeholder="В свободной форме" name="text"></textarea>
+          </label>
+        </div>
+        <div class="write-us-send-wrapper">
+          <button class="button" type="submit">Отправить</button>
+        </div>
       </form>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
