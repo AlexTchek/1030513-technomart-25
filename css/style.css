@@ -90,7 +90,7 @@ a.logo:after {
   left: 0;
   width: 220px;
   content: "";
-  border-bottom: 5px solid #b52933;
+  border-bottom: 6px solid #b52933;
 }
 
 .main-header-logo {
@@ -371,6 +371,22 @@ h2 {
   text-decoration: underline;
 }
 
+.footer-navigation-list a:active,
+.footer-link-list a:active {
+  text-decoration: none;
+  opacity: 0.4;
+}
+
+.footer-contacts a:active {
+  text-decoration: none;
+  color: #ee3643;
+}
+
+.footer-social a:hover,
+.footer-social a:active {
+  background-color: #ee3643;
+}
+
 .main-footer-logo {
   font-size: 30px;
 }
@@ -575,6 +591,11 @@ a.main-footer-logo:hover {
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
+  opacity: 0.7;
+}
+
+.filter-option:hover .filter-input-checkbox + label::after{
+  opacity: 1;
 }
 
 .filter-input-checkbox:checked + label::after {
@@ -605,7 +626,14 @@ a.main-footer-logo:hover {
   background-image: url("../img/radio-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
+
+  opacity: 0.7;
 }
+
+.filter-option:hover .filter-input-radio + label::after {
+  opacity: 1;
+}
+
 
 .filter-input-radio:checked + label::after {
   content: "";
@@ -854,28 +882,33 @@ a.main-footer-logo:hover {
   margin-right: 10px;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
-  font-size: 13x;
+  font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
   color: black;
-  border: 1px solid #e5e5e5;
-  border-radius: 3px;
+}
+
+.pagination-item a:hover {
+  border: 1px solid rgba(229, 229, 229, 1);
+}
+
+.pagination-item a:active {
+  border: 1px solid rgb(238, 54, 67, 1);
 }
 
 .pagination-item a {
   display: block;
   padding: 10px 15px;
   color: black;
-}
-
-.pagination-item-current {
-  background-color: #ee3643;
+  border: 1px solid rgba(229, 229, 229, 0.7);
+  border-radius: 3px;
 }
 
 .pagination-item-current a {
   color: white;
+  background-color: #ee3643;
 }
 
 
