@@ -490,6 +490,10 @@ a.main-footer-logo:hover {
 
 }
 
+.inner-page h2 {
+  font-family: "Cuprum", Arial, sans-serif;
+}
+
 .catalog-title {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
@@ -649,11 +653,18 @@ a.main-footer-logo:hover {
 }
 
 .catalog-title-breadcrumbs li:not(:first-child):before {
-  content: ">";
+  content: "";
   position: absolute;
   left: -20px;
-  top: 0px;
+  top: 2px;
   color: #c5c9d1;
+
+  width: 10px;
+  height: 14px;
+
+  background-image: url("../img/icon-right-small.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .breadcrumbs-current {
@@ -704,11 +715,31 @@ a.main-footer-logo:hover {
   text-align: center;
 
   background-color: transparent;
-  box-shadow: inset 0 0 0 1px #e5e5e5;
+}
+
+.catalog-item .flag {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+
+  width: 60px;
+  height: 60px;
+
+  text-indent: -1000px;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.catalog-item .flag-new {
+  background: url("../img/new-flag.png") no-repeat 0 0;
 }
 
 .catalog-item .actions {
   display: none;
+}
+
+.catalog-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .catalog-item:hover .actions {
