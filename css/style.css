@@ -74,6 +74,17 @@ input[type="radio"].visually-hidden {
   background-color: #212a3a;
 }
 
+.main-header-top svg {
+  stroke: #6a7180;
+  fill: #6a7180;
+}
+
+.main-header-top a:focus svg,
+.main-header-top a:hover svg {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
 a.logo {
   position: relative;
   width: 220px;
@@ -116,43 +127,15 @@ a.main-header-logo:hover {
   border: none;
 }
 
-a.main-header-bookmarks,
-a.main-header-cart {
-  padding-left: 30px;
+.main-header-top svg {
+  margin-right: 10px;
+  margin-bottom: 3px;
+  vertical-align: middle;
 }
 
-.main-header-bookmarks::before {
-  content: "";
-
-  position: absolute;
-  top: 12px;
-  left: 19px;
-
-  width: 16px;
-  height: 18px;
-
-  background-image: url("../img/bookmark.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-
-  opacity: 1;
-}
-
-.main-header-cart::before {
-  content: "";
-
-  position: absolute;
-  top: 12px;
-  left: 19px;
-
-  width: 16px;
-  height: 18px;
-
-  background-image: url("../img/cart.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-
-  opacity: 1;
+a.main-header-cart  {
+  padding-left: 15px;
+  padding-right: 30px;
 }
 
 .main-header-order {
