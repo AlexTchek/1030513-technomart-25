@@ -172,27 +172,33 @@ a.main-header-order:hover {
 
 .main-header-middle-wrapper {
   display: flex;
+  justify-content: space-between;
   width: 940px;
-  margin: 0 auto;
-  padding: 28px 0;
+  margin: 45px auto 40px;
 }
 
 .main-header-description {
   box-sizing: border-box;
-  padding: 0 50px;
-  width: 300px;
+  padding: 3px 50px 0;
+  margin: 0;
+
+  width: 290px;
   font-style: italic;
 }
 
 .main-header-address-wrapper {
-  width: 300px;
+  padding: 0 10px;
 }
 
 .main-header-phone {
-  width: 300px;
+  width: 270px;
   height: 45px;
-  padding: 0 15px;
-  display: table-cell;
+
+  padding: 9px 15px;
+  margin: 0;
+
+  box-sizing: border-box;
+
   text-align: center;
   vertical-align: middle;
   font-size: 21px;
@@ -202,20 +208,42 @@ a.main-header-order:hover {
 
 .main-header-address {
   margin: 0 auto;
-  padding-top: 9px;
+  padding-top: 5px;
   text-align: center;
   font-size: 14px;
   line-height: 24px;
   color: #32425c;
 }
 
+.main-header-buttons {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
 .header-bottom-button {
   font-size: 21px;
   line-height: 21px;
+
+  padding: 12px 25px;
+  margin-left: 10px;
+
   color:black;
   background-color: white;
   border: none;
 }
+
+.header-bottom-button-login {
+  width: 120px;
+
+  padding-left: 47px;
+}
+
+.header-bottom-button-register {
+  width: 150px;
+}
+
+
 
 button.header-bottom-button:focus,
 button.header-bottom-button:hover {
