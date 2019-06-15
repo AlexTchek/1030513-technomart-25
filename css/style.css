@@ -293,6 +293,7 @@ button.header-bottom-button:active {
 
 .main-header-logged-in-actions a {
   text-decoration: underline;
+  color: #32425c;
 }
 
 .main-header-logged-in-actions a:focus,
