@@ -860,6 +860,7 @@ p.main-footer-address-phone {
   line-height: 20px;
   font-weight: bold;
   text-align: center;
+  vertical-align: top;
 
   background-color: transparent;
 }
