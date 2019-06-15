@@ -495,7 +495,7 @@ h2 {
 }
 
 a.main-footer-logo {
-  padding: 20px 0 5px;
+  padding: 25px 0px 0px;
 }
 
 a.main-footer-logo:focus,
@@ -504,7 +504,7 @@ a.main-footer-logo:hover {
 }
 
 .main-footer-top {
-  padding-bottom: 37px;
+  padding-bottom: 48px;
   font-size: 18px;
   line-height: 24px;
   color: #f3f7f9;
@@ -521,11 +521,11 @@ a.main-footer-logo:hover {
 .footer-navigation-list,
 .footer-link-list {
   flex: 1;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .footer-navigation-list {
-  margin: 37px 0px 0px 80px;
+  margin: 37px 0px 0px 0px;
 }
 
 .main-footer-top-line1 {
@@ -533,11 +533,28 @@ a.main-footer-logo:hover {
 }
 
 .footer-navigation-list a {
-  margin-left: 30px;
+  margin-left: 47px;
+  padding-right: 0;
   color: #f1f5f7;
 }
 
+.main-footer p {
+  font-family: "Cuprum", Arial, sans-serif;
+}
+p.main-footer-address-phone {
+  display: block;
+
+}
+
+.main-footer-top-line2 ul {
+  padding-left: 0;
+  margin: 0;
+}
+
 .footer-link-list a {
+  padding-left: 60px;
+  padding-right: 0;
+
   color: #ffd180;
 }
 
@@ -558,7 +575,6 @@ a.main-footer-logo:hover {
 
 .footer-about {
   width: 300px;
-  margin-right: 80px;
 }
 
 .footer-social {
@@ -586,14 +602,13 @@ a.main-footer-logo:hover {
 }
 
 .footer-contacts {
-  margin-left: auto;
   display: flex;
-  justify-content: space-between;
-  width: 350px;
+  justify-content: flex-end;
+  width: 330px;
 }
 
-.footer-contacts p {
-  margin-left: 40px;
+.footer-contacts div {
+  padding-left: 30px;
 }
 
 .main-footer-mailto a,
