@@ -125,15 +125,27 @@ a.main-header-logo:hover {
 .main-header-top svg {
   margin: 0px 15px;
   margin-left: 4px;
-  stroke: #6a7180;
   fill: #6a7180;
 }
 
 .main-header-top a:focus svg,
 .main-header-top a:hover svg {
-  stroke: #ffffff;
   fill: #ffffff;
 }
+
+.inner-page .main-header-cart {
+  background-color: #ee3643;
+}
+
+.inner-page .main-header-cart svg {
+  fill: #f3737c;
+}
+
+.inner-page .main-header-cart:focus,
+.inner-page .main-header-cart:hover {
+  background-color: #ee3643;
+}
+
 
 .main-header-order {
   background-color: #63a63e;
@@ -163,28 +175,33 @@ a.main-header-order:hover {
   padding: 3px 50px 0;
   margin: 0;
 
-  width: 290px;
+  width: 300px;
   font-style: italic;
 }
 
 .main-header-address-wrapper {
-  padding: 0 10px;
+  padding: 0;
+  padding-right: 35px;
 }
 
 .main-header-phone {
   width: 270px;
   height: 45px;
 
-  padding: 9px 15px;
+  padding: 10px 10px;
   margin: 0;
 
   box-sizing: border-box;
 
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
   font-size: 21px;
   line-height: 21px;
   border: 3px solid white;
+}
+
+.main-header-phone-svg {
+  display: block;
+  padding-right: 40px;
 }
 
 .main-header-address {
@@ -230,9 +247,13 @@ a.main-header-order:hover {
   width: 150px;
 }
 
-button.header-bottom-button:focus,
-button.header-bottom-button:hover {
-  color: #ee3643;
+button.header-bottom-button:focus svg,
+button.header-bottom-button:hover svg {
+  fill: #32425c;
+}
+
+button.header-bottom-button:active svg {
+  fill: #c5c5c5;
 }
 
 button.header-bottom-button:active {
@@ -246,6 +267,65 @@ button.header-bottom-button:active {
 
 .header-bottom-button-login:active svg {
   fill: #c5c5c5;
+}
+
+.header-bottom-button-logged-in {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0;
+  padding: 12px;
+}
+
+.header-bottom-button-logged-in svg {
+  margin-top: 2px;
+  fill: #c5c5c5;
+}
+
+.header-bottom-button-logged-in span {
+  margin-right: 17px;
+}
+
+.main-header-logged-in-actions {
+  margin: 0;
+  padding: 3px 20px 0px;
+}
+
+.main-header-logged-in-actions a {
+  text-decoration: underline;
+}
+
+.main-header-logged-in-actions a:focus,
+.main-header-logged-in-actions a:hover {
+  color: #ee3643;
+}
+
+.main-header-logged-in-actions a:active {
+  color: #cacfd5;
+}
+
+.main-header-bottom ul,
+.main-navigation ul {
+  list-style: none;
+}
+
+.main-header-logged-in-wrapper ul {
+  list-style: disc;
+
+  display: flex;
+  justify-content: flex-start;
+
+  color: #32425c;
+}
+
+.main-header-logged-in-actions li {
+  margin-left: 22px;
+  margin-right: 10px;
+}
+
+.main-header-logged-in-actions li:first-child {
+  list-style: none;
+  margin-left: -1px;
 }
 
 .main-navigation {
@@ -270,11 +350,6 @@ button.header-bottom-button:active {
   padding: 21px 30px 17px;
   font-size: 17px;
   line-height: 17px;
-}
-
-.main-header-bottom ul,
-.main-navigation ul {
-  list-style: none;
 }
 
 .main-header-top a,
