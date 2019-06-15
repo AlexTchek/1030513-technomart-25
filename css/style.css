@@ -55,10 +55,9 @@ input[type="radio"].visually-hidden {
 .main-footer-top a {
   width: 150px;
   padding: 12px;
-  position: relative;
+
   box-sizing: border-box;
   text-align: center;
-  vertical-align: middle;
 }
 
 .main-header-top input::-moz-placeholder { color: #ffffff; opacity:1; }
@@ -72,17 +71,6 @@ input[type="radio"].visually-hidden {
 .main-header-top input:focus,
 .main-header-top input:hover {
   background-color: #212a3a;
-}
-
-.main-header-top svg {
-  stroke: #6a7180;
-  fill: #6a7180;
-}
-
-.main-header-top a:focus svg,
-.main-header-top a:hover svg {
-  stroke: #ffffff;
-  fill: #ffffff;
 }
 
 a.logo {
@@ -127,20 +115,30 @@ a.main-header-logo:hover {
   border: none;
 }
 
-.main-header-top svg {
-  margin-right: 10px;
-  margin-bottom: 3px;
-  vertical-align: middle;
+
+.main-header-bookmarks,
+.main-header-cart {
+  display: flex;
+  justify-content: flex-start;
 }
 
-a.main-header-cart  {
-  padding-left: 15px;
-  padding-right: 30px;
+.main-header-top svg {
+  margin: 0px 15px;
+  margin-left: 4px;
+  stroke: #6a7180;
+  fill: #6a7180;
+}
+
+.main-header-top a:focus svg,
+.main-header-top a:hover svg {
+  stroke: #ffffff;
+  fill: #ffffff;
 }
 
 .main-header-order {
   background-color: #63a63e;
 }
+
 a.main-header-order:focus,
 a.main-header-order:hover {
   background-color: #5fbb2d;
@@ -157,7 +155,7 @@ a.main-header-order:hover {
   display: flex;
   justify-content: space-between;
   width: 940px;
-  margin: 45px auto 40px;
+  margin: 45px auto 38px;
 }
 
 .main-header-description {
