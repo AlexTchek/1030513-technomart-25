@@ -370,7 +370,7 @@ button.header-bottom-button:active {
 .index-columns {
   display: flex;
   justify-content: space-between;
-  padding: 55px 0px 42px;
+  padding: 55px 0px 48px;
 }
 
 .about {
@@ -405,13 +405,15 @@ h2 {
   border-radius: 3px;
 }
 
+.index-columns .button {
+  margin: 37px 0;
+}
+
 .about .button {
-  margin: 40px 0;
   width: 220px;
 }
 
 .contacts .button {
-  margin: 40px 0;
   width: 100%;
 }
 
@@ -426,7 +428,7 @@ h2 {
 }
 
 .map-crop {
-  margin: 30px 0 0;
+  margin: 30px 0 6px;
   width: 300px;
   height: 158px;
   background-image: url("../img/map.png");
@@ -451,12 +453,12 @@ h2 {
 .shipping-company-list li::before {
   margin: 5px;
   margin-right: 11px;
+  margin-left: 0px;
   content: "";
   background: #ee3643;
   width: 25px;
   height: 2px;
   display: inline-block;
-  vertical-align: top;
 }
 
 .main-footer ul {
