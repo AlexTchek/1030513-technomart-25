@@ -247,16 +247,16 @@ a.main-header-order:hover {
   width: 150px;
 }
 
-button.header-bottom-button:focus svg,
-button.header-bottom-button:hover svg {
+.header-bottom-button-logged-in:focus svg,
+.header-bottom-button-logged-in:hover svg {
   fill: #32425c;
 }
 
-button.header-bottom-button:active svg {
+.header-bottom-button-logged-in:active svg {
   fill: #c5c5c5;
 }
 
-button.header-bottom-button:active {
+.header-bottom-button-logged-in:active {
   color: #cacaca;
 }
 
