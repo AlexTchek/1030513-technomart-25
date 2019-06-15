@@ -208,8 +208,8 @@ a.main-header-order:hover {
   font-size: 21px;
   line-height: 21px;
 
-  padding: 12px 25px;
   margin-left: 10px;
+  padding: 12px 25px;
 
   color:black;
   background-color: white;
@@ -217,20 +217,37 @@ a.main-header-order:hover {
 }
 
 .header-bottom-button-login {
+  display: flex;
+  justify-content: space-between;
   width: 120px;
+  padding-left: 12px;
+}
 
-  padding-left: 47px;
+.header-bottom-button-login svg {
+  fill: #c5c5c5;
+  margin-top: 1px;
 }
 
 .header-bottom-button-register {
   width: 150px;
 }
 
-
-
 button.header-bottom-button:focus,
 button.header-bottom-button:hover {
   color: #ee3643;
+}
+
+button.header-bottom-button:active {
+  color: #cacaca;
+}
+
+.header-bottom-button-login:focus svg,
+.header-bottom-button-login:hover svg {
+  fill: #32425c;
+}
+
+.header-bottom-button-login:active svg {
+  fill: #c5c5c5;
 }
 
 .main-navigation {
