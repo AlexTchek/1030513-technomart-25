@@ -421,6 +421,8 @@ a.main-header-order:active svg {
 }
 
 .promo-item {
+  position: relative;
+
   margin-right: 20px;
   margin-bottom: 20px;
 
@@ -478,33 +480,66 @@ a.main-header-order:active svg {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.promo-item::after {
+  content: "";
+
+  position: absolute;
+  right: 29px;
+  top: 31px;
+
+  height: 80px;
+  width: 80px;
+  background-repeat: no-repeat;
+}
+
 .promo-item-11 {
   background-color: #ffbf47;
+}
+
+.promo-item-11::after {
+  right: 6px;
   background-image: url("../img/materials.svg");
 }
 
 .promo-item-12 {
   background-color: #3bbce3;
+}
+
+.promo-item-12::after {
+  right: 24px;
+  top: 33px;
+
   background-image: url("../img/instruments.svg");
 }
 
 .promo-item-13 {
   background-color: #dc91d8;
+}
+
+.promo-item-13::after {
   background-image: url("../img/technica.svg");
 }
 
 .promo-item-23 {
   background-color: #8ed78f;
+}
+
+.promo-item-23::after {
+  right: 24px;
+  top: 26px;
   background-image: url("../img/discount.svg");
 }
 
 .promo-item-33 {
   background-color: #ffc047;
+}
+
+.promo-item-33::after {
   background-image: url("../img/delivery.svg");
 }
 
 .promo-row {
-  flex: 1;
+  flex-grow: 1;
   display: flex;
 }
 
