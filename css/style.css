@@ -435,13 +435,14 @@ a.main-header-order:active svg {
 
 .promo-item p {
   margin: 0;
+  margin-left: 2px;
   padding: 21px;
-  padding-bottom: 12px;
+  padding-bottom: 13px;
 
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 24px;
   line-height: 30px;
-  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .promo-item a {
@@ -449,12 +450,11 @@ a.main-header-order:active svg {
   padding-bottom:9px;
 
 
-  margin-left: 25px;
-  margin-bottom: 22px;
+  margin-left: 24px;
 
   display: block;
   box-sizing: border-box;
-  width: 135px;
+  width: 136px;
 
   text-transform: uppercase;
   text-align: center;
@@ -464,6 +464,18 @@ a.main-header-order:active svg {
   line-height: 18px;
 
   border-radius: 3px;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.promo-item a:hover,
+.promo-item a:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.promo-item a:active {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .promo-item-11 {
@@ -471,17 +483,9 @@ a.main-header-order:active svg {
   background-image: url("../img/materials.svg");
 }
 
-.promo-item-11 a {
-  background-color: #e5ac40;
-}
-
 .promo-item-12 {
   background-color: #3bbce3;
   background-image: url("../img/instruments.svg");
-}
-
-.promo-item-12 a {
-  background-color: #35a9cc;
 }
 
 .promo-item-13 {
@@ -489,26 +493,14 @@ a.main-header-order:active svg {
   background-image: url("../img/technica.svg");
 }
 
-.promo-item-13 a {
-  background-color: #c682c2;
-}
-
 .promo-item-23 {
   background-color: #8ed78f;
   background-image: url("../img/discount.svg");
 }
 
-.promo-item-23 a {
-  background-color: #80c180;
-}
-
 .promo-item-33 {
   background-color: #ffc047;
   background-image: url("../img/delivery.svg");
-}
-
-.promo-item-33 a {
-  background-color: #e5ac40;
 }
 
 .promo-row {
@@ -632,6 +624,15 @@ a.main-header-order:active svg {
   letter-spacing: 0.1px;
 
   width: 195px;
+}
+
+.slide a.slider-link:hover,
+.slide a.slider-link:focus {
+  background-color: #ca2c37;
+}
+
+.slide a.slider-link:active {
+  background-color: #ba2732;
 }
 
 .index-columns {
