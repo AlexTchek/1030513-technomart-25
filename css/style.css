@@ -1165,10 +1165,11 @@ p.main-footer-address-phone {
   background-color: transparent;
 }
 
-.catalog-item .flag {
+.flag {
   position: absolute;
-  top: -1px;
-  right: -1px;
+
+  top: 0px;
+  right: 0px;
 
   width: 60px;
   height: 60px;
@@ -1178,7 +1179,12 @@ p.main-footer-address-phone {
   z-index: 20;
 }
 
-.catalog-item .flag-new {
+.catalog-item .flag {
+  top: -1px;
+  right: -1px;
+}
+
+.flag-new {
   background: url("../img/new-flag.png") no-repeat 0 0;
 }
 
