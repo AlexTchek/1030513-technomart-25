@@ -562,6 +562,22 @@ a.main-header-order:active svg {
   background-color: #ee3643;
 }
 
+.slider-buttons button {
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+}
+
+.slider-buttons .nav-left {
+  left: 20px;
+  top: 114px;
+}
+
+.slider-buttons .nav-right {
+  left: 573px;
+  top: 114px;
+}
+
 .slider-inner {
   overflow: hidden;
 }
