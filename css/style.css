@@ -212,11 +212,13 @@ a.main-header-order:active svg {
 }
 
 .main-header-description {
-  box-sizing: border-box;
   padding: 3px 50px 0;
+  padding-left: 53px;
   margin: 0;
 
+  box-sizing: border-box;
   width: 300px;
+
   font-style: italic;
 }
 
@@ -247,10 +249,13 @@ a.main-header-order:active svg {
 
 .main-header-address {
   margin: 0 auto;
+  margin-left: 8px;
   padding-top: 5px;
-  text-align: center;
+
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.15px;
+
   color: #32425c;
 }
 
@@ -607,7 +612,8 @@ a.main-header-order:active svg {
   position: absolute;
 
   top: 206px;
-  left: 26px;
+  left: 27px;
+  letter-spacing: 0.1px;
 
   width: 195px;
 }
