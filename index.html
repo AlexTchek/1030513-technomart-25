@@ -87,10 +87,10 @@
         </nav>
       </div>
     </header>
-    <main class="container">
+    <main>
       <h1 class="visually-hidden">Интернет магазин Техномарт</h1>
 
-      <div class="promo">
+      <div class="container promo">
         <div class="promo-row">
           <div class="promo-item promo-item-11">
             <div class="flag flag-new">новинка</div>
@@ -127,7 +127,10 @@
                   <a class="slider-link button" href="catalog.html">Открыть каталог</a>
                 </div>
                 <div class="slide">
+                  <p class="slide-caption">Дрели</p>
+                  <p class="slide-subcaption">Соседям на радость!</p>
                   <img src="img/slider_2.jpg" alt="Дрелят аккумуляторной дрелью">
+                  <a class="slider-link button" href="catalog.html">Открыть каталог</a>
                 </div>
               </div>
             </div>
@@ -145,7 +148,36 @@
         </div>
       </div>
 
-      <div class="index-columns">
+      <div class="services-wrapper">
+        <div class="container services">
+          <div class="services-text">
+            <h2>Сервисы</h2>
+            <p>Хороший интернет-магазин отличается от плохого не только ценами!
+                Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+          </div>
+          <div class="service-slider">
+            <input type="radio" id="serv-btn-1" name="toggle" checked>
+            <input type="radio" id="serv-btn-2" name="toggle">
+            <input type="radio" id="serv-btn-3" name="toggle">
+            <div class="service-slider-controls">
+              <label for="serv-btn-1"><button class="active">Доставка</button></label>
+              <label for="serv-btn-2"><button>Гарантия</button></label>
+              <label for="serv-btn-2"><button>Кредит</button></label>
+            </div>
+            <div class="service-slider-inner">
+              <div class="service-slider-slides">
+                <div class="service-slide">
+                  <h3 class="service-slide-caption">Доставка</h3>
+                  <p>Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно!
+                      Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!</p>
+                  <img src="img/delivery.png" alt="Машина доставки">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container index-columns">
         <section class="about">
           <h2>Компания «Техномарт»</h2>
           <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта

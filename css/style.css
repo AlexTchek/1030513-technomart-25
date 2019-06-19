@@ -670,6 +670,128 @@ a.main-header-order:active svg {
   background-color: #ba2732;
 }
 
+.services-wrapper {
+  background-color: #f4f8f9;
+}
+
+.services-text h2 {
+  display: block;
+  padding-top: 63px;
+
+  margin-bottom: 27px;
+}
+
+.services-text p {
+  display: block;
+  margin: 0;
+  margin-bottom: 35px;
+
+  width: 400px;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  letter-spacing: 0.05px;
+}
+
+.service-slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-slider input[type="radio"] {
+  display: none;
+}
+
+.service-slider-controls {
+  position: relative;
+
+  padding-top: 33px;
+  width: 240px;
+}
+
+.service-slider-controls::after {
+  content: "";
+
+  position: absolute;
+
+  right: 0;
+  top: -4px;
+
+  height: 272px;
+  width: 10px;
+
+  background-image: url("../img/services-shadow.png");
+  background-repeat: no-repeat;
+}
+
+.service-slider-controls label {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.service-slider-controls label > button {
+  padding: 0;
+  padding-left: 23px;
+  padding-bottom: 1px;
+  margin: 0;
+  width: 100%;
+  height: 62px;
+
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+
+  text-align: left;
+
+  color: white;
+  background-color: #32425c;
+
+  border: 0;
+  border-top: 1px solid #405069;
+  border-bottom: 1px solid #293449;
+}
+
+.service-slider-controls .active {
+  color: #32425c;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+}
+
+.service-slider-inner {
+  position: relative;
+  width: 620px;
+}
+
+.service-slide-caption {
+  margin-top: 32px;
+  margin-bottom: 26px;
+
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+
+  color: #32425c;
+}
+
+.service-slide p {
+  margin-bottom: 128px;
+  width: 280px;
+
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.7px;
+}
+
+.service-slide img {
+  position: absolute;
+
+  right: 0;
+  top: 57px;
+}
+
 .index-columns {
   display: flex;
   justify-content: space-between;
