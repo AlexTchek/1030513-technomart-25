@@ -803,6 +803,10 @@ a.main-header-order:active svg {
   letter-spacing: 0.7px;
 }
 
+.service-slide .long-text {
+  width: 381px;
+}
+
 .service-slide img {
   position: absolute;
 
