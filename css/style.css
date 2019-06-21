@@ -701,6 +701,8 @@ a.main-header-order:active svg {
 .service-slider {
   display: flex;
   justify-content: space-between;
+
+  padding-bottom: 17px;
 }
 
 .service-slider input[type="radio"] {
@@ -763,6 +765,12 @@ a.main-header-order:active svg {
 .service-slider-inner {
   position: relative;
   width: 620px;
+
+  overflow: hidden;
+}
+
+.service-slider-slides {
+  width: 300%;
 }
 
 .service-slide-caption {
@@ -776,6 +784,14 @@ a.main-header-order:active svg {
   text-transform: uppercase;
 
   color: #32425c;
+}
+
+.service-slide {
+  position: relative;
+
+  float: left;
+  width: 620px;
+  height: 300px;
 }
 
 .service-slide p {
@@ -797,6 +813,8 @@ a.main-header-order:active svg {
 .service-credit-button {
   position: absolute;
   width: 195px;
+
+  top: 170px;
 }
 
 .index-columns {
