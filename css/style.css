@@ -569,6 +569,8 @@ a.main-header-order:active svg {
   position: absolute;
   top: 215px;
   left: 293px;
+
+  z-index: 1;
 }
 
 .slider-controls label {
@@ -593,6 +595,8 @@ a.main-header-order:active svg {
   position: absolute;
   background-color: transparent;
   border: 0;
+
+  z-index: 1;
 }
 
 .slider-buttons .nav-left {
@@ -614,6 +618,8 @@ a.main-header-order:active svg {
 }
 
 .slide {
+  position: relative;
+
   float: left;
   width: 620px;
   height: 266px;
@@ -786,6 +792,11 @@ a.main-header-order:active svg {
 
   right: 0;
   top: 57px;
+}
+
+.service-credit-button {
+  position: absolute;
+  width: 195px;
 }
 
 .index-columns {
