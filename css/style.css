@@ -957,7 +957,7 @@ a.main-footer-logo:hover {
 }
 
 .main-footer-top {
-  padding-bottom: 48px;
+  padding-bottom: 30px;
   font-size: 18px;
   line-height: 24px;
   color: #f3f7f9;
@@ -982,7 +982,7 @@ a.main-footer-logo:hover {
 }
 
 .main-footer-top-line1 {
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
 
 .footer-navigation-list a {
@@ -992,8 +992,12 @@ a.main-footer-logo:hover {
 }
 
 .main-footer p {
+  margin-top: 0;
+
   font-family: "Cuprum", Arial, sans-serif;
+  letter-spacing: 0.3px;
 }
+
 p.main-footer-address-phone {
   display: block;
 
