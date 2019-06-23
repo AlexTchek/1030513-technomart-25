@@ -823,6 +823,11 @@ a.main-header-order:active svg {
   border-bottom: 1px solid #293449;
 }
 
+.service-slider-controls label:not(.active):hover,
+.service-slider-controls label:not(.active):focus {
+  background-color: #293449;
+}
+
 .service-slider-controls .active {
   color: #32425c;
   background-color: white;
