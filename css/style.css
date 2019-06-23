@@ -418,6 +418,8 @@ a.main-header-order:active svg {
 .promo {
   display: flex;
   flex-wrap: wrap;
+
+  margin-bottom: 33px;
 }
 
 .promo-item {
@@ -674,6 +676,26 @@ a.main-header-order:active svg {
 
 .slide a.slider-link:active {
   background-color: #ba2732;
+}
+
+.block-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: bottom;;
+  padding: 25px;
+
+  color: #32425c;
+  background-color: #f9f5f0;
+}
+
+.block-header h2 {
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 2px;
+}
+
+.block-header a {
+  width: 253px;
 }
 
 .services-wrapper {
