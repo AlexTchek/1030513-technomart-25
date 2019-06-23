@@ -183,6 +183,10 @@ a.main-header-cart {
   background-color: #ee3643;
 }
 
+.inner-page .main-header {
+  margin-bottom: 0;
+}
+
 .main-header-order {
   background-color: #63a63e;
 }
@@ -230,7 +234,7 @@ a.main-header-order:active svg {
 
 .main-header-address-wrapper {
   padding: 0;
-  padding-right: 35px;
+  padding-right: 28px;
 }
 
 .main-header-phone {
@@ -267,10 +271,12 @@ a.main-header-order:active svg {
 
 .main-header-buttons {
   display: flex;
+  justify-content: flex-end;
   align-items: baseline;
   padding: 0;
   padding-top: 14px;
   margin: 0;
+  width: 300px;
 }
 
 .header-bottom-button {
@@ -344,6 +350,7 @@ a.main-header-order:active svg {
   width: 300px;
   margin: 0;
   padding: 12px;
+  padding-bottom: 10px;
 }
 
 .header-bottom-button-logged-in svg {
@@ -357,7 +364,7 @@ a.main-header-order:active svg {
 
 .main-header-logged-in-actions {
   margin: 0;
-  padding: 3px 20px 0px;
+  padding: 5px 20px 0px;
 }
 
 .main-header-logged-in-actions a {
@@ -1227,12 +1234,15 @@ p.main-footer-address-phone {
 }
 
 .filter fieldset {
-  border: 0;
-  margin-top: 20px;
+  padding: 0;
+  margin-top: 17px;
+
+  border: none;
 }
 
 .filter ul {
   padding: 0;
+  margin-top: 14px;
   list-style: none;
   line-height: 18px;
 }
@@ -1251,8 +1261,12 @@ p.main-footer-address-phone {
   font-size: 15px;
   line-height: 20px;
 
-  margin-bottom: 19px;
+  margin-bottom: 20px;
   padding-left: 35px;
+}
+
+.filter-brand {
+  margin-bottom: 22px;
 }
 
 .filter-option label {
@@ -1348,7 +1362,7 @@ p.main-footer-address-phone {
   border-radius: 3px;
 }
 
-.catalog {
+.catalog-list {
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: bold;
 }
@@ -1381,8 +1395,112 @@ p.main-footer-address-phone {
   background-position: 0 0;
 }
 
-.breadcrumbs-current {
+.breadcrumbs-current p {
   cursor: default;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.3px;
+}
+
+.catalog-wrapper .caption {
+  margin-bottom: 17px;
+
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "PT Sans", Arial, sans-serif;
+
+  background-color: #f7f3ec;
+}
+
+.caption p {
+  margin: 0;
+  padding: 10px 18px 10px;
+  text-transform: uppercase;
+}
+
+.filter-price {
+  margin-bottom: 25px;
+  font-size: 17px;
+  line-height: 17px;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
+.filter-price p {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-weight: bold;
+}
+
+.range-controls {
+  position: relative;
+  margin-bottom: 12px;
+  padding: 39px 20px;
+
+  background-color: #f7f3ec;
+  border-radius: 5px;
+}
+
+.range-controls .scale {
+  position: relative;
+
+  height: 2px;
+
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+
+  background: #00ca74;
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+
+  width: 4px;
+  height: 4px;
+
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+.price-controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-controls span {
+  margin-top: 6px;
+}
+
+.price-controls input {
+  display: inline-block;
+  width: 95px;
+  padding: 4px 10px 8px;
+
+  box-sizing: border-box;
+
+  font-size: 17px;
+  line-height: 17px;
+
+  text-align: center;
+  background-color: #f7f3ec;
+  border: none;
+  border-radius: 5px;
 }
 
 .catalog-name {
@@ -1420,6 +1538,10 @@ p.main-footer-address-phone {
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
+}
+
+.catalog .caption {
+  margin-bottom: 20px;
 }
 
 .catalog-item {
