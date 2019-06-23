@@ -743,6 +743,16 @@ a.main-header-order:active svg {
   height: 100%;
 }
 
+.popular-brand-list li:hover,
+.popular-brand-list li:focus {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.popular-brand-list li:active {
+  opacity: 0.5;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
 .services-wrapper {
   background-color: #f4f8f9;
 }
@@ -1434,7 +1444,7 @@ p.main-footer-address-phone {
 }
 
 .catalog-item:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .catalog-item:hover .actions {
