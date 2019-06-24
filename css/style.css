@@ -1534,27 +1534,30 @@ p.main-footer-address-phone {
 
 
 .order-control a {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: #ee3643;
-
   color: #b2b2b2;
   fill: #c5c5c5;
 }
 
-.order-control .active {
-  text-decoration: none;
+.order-control .order-type a:not(.active) {
+  border-bottom: 1px dotted #ee3643;
+}
 
+.order-control .active {
+  cursor: default
+  ;
   color: #ee3643;
   fill: #ee3643;
 }
 
 .order-control a:not(.active):hover,
 .order-control a:not(.active):focus {
-  text-decoration-style: solid;
-
   color: black;
   fill: #231f20;
+}
+
+.order-control .order-type a:not(.active):hover,
+.order-control .order-type a:not(.active):focus {
+  border-bottom: 1px solid #ee3643;
 }
 
 
