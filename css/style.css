@@ -1614,7 +1614,7 @@ p.main-footer-address-phone {
   width: 700px;
 
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   padding: 0;
 }
 
@@ -1837,25 +1837,29 @@ p.main-footer-address-phone {
 
 .pagination-list {
   display: flex;
+
   margin: 0;
   padding: 0;
+
   margin-bottom: 55px;
 }
 
 .pagination-item {
   margin-right: 10px;
   padding: 0;
+
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
+
   color: black;
 }
 
-.pagination-item a:hover {
-  border: 1px solid rgba(229, 229, 229, 1);
+.pagination-item a:not(.pagination-item-current):hover {
+  border: 1px solid #bdc6ca;
 }
 
 .pagination-item a:active {
@@ -1864,7 +1868,11 @@ p.main-footer-address-phone {
 
 .pagination-item a {
   display: block;
+
   padding: 10px 15px;
+  padding-bottom: 9px;
+  padding-right: 14px;
+
   color: black;
   border: 1px solid rgba(229, 229, 229, 0.7);
   border-radius: 3px;
@@ -1873,6 +1881,11 @@ p.main-footer-address-phone {
 .pagination-item-current a {
   color: white;
   background-color: #ee3643;
+}
+
+.pagination-item-next a {
+  box-sizing: border-box;
+  width: 140px;
 }
 
 
