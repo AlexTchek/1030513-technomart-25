@@ -1234,7 +1234,7 @@ p.main-footer-address-phone {
 }
 
 .filter-price {
-  margin-bottom: 25px;
+  margin-bottom: 26px;
   font-size: 17px;
   line-height: 17px;
   font-family: "PT Sans", Arial, sans-serif;
@@ -1299,7 +1299,7 @@ p.main-footer-address-phone {
 }
 
 .price-controls span {
-  margin-top: 8px;
+  margin-top: 9px;
 }
 
 .price-controls input {
@@ -1500,7 +1500,10 @@ p.main-footer-address-phone {
 }
 
 .catalog-wrapper .caption {
+  position: relative;
   margin-bottom: 17px;
+
+  height: 38px;
 
   font-size: 13px;
   line-height: 18px;
@@ -1515,8 +1518,68 @@ p.main-footer-address-phone {
   text-transform: uppercase;
 }
 
+.caption-order p {
+  display: inline-block;
+}
+
+.caption .order-control {
+  position: absolute;
+  right: 0;
+
+  padding: 10px;
+  padding-right: 15px;
+
+  display: inline-flex;
+}
+
+
+.order-control a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #ee3643;
+
+  color: #b2b2b2;
+  fill: #c5c5c5;
+}
+
+.order-control .active {
+  text-decoration: none;
+
+  color: #ee3643;
+  fill: #ee3643;
+}
+
+.order-control a:not(.active):hover,
+.order-control a:not(.active):focus {
+  text-decoration-style: solid;
+
+  color: black;
+  fill: #231f20;
+}
+
+
+.order-control ul {
+  margin: 0;
+  padding: 0;
+
+  width: 355px;
+  display: flex;
+  justify-content: space-between;
+
+  text-transform: uppercase;
+}
+
+.order-control .order-type {
+  padding-right: 45px;
+}
+
+.order-control .order-dir {
+  width: 45px;
+}
+
 .catalog-name {
   margin: 20px 0;
+  margin-bottom: 19px;
 }
 
 .catalog-wrapper {
