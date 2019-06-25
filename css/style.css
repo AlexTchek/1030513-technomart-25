@@ -221,6 +221,10 @@ a.main-header-order:active svg {
   margin: 45px auto 38px;
 }
 
+.main-header-phone a {
+  color: #ee3643;
+}
+
 .main-header-description {
   padding: 3px 50px 0;
   padding-left: 53px;
@@ -321,8 +325,13 @@ a.main-header-order:active svg {
   border: none;
 }
 
-.header-bottom-button-logged-in:focus svg,
-.header-bottom-button-logged-in:hover svg {
+.header-bottom-profile:focus svg,
+.header-bottom-profile:hover svg {
+  fill: #32425c;
+}
+
+.header-bottom-logout:focus svg,
+.header-bottom-logout:hover svg {
   fill: #32425c;
 }
 
@@ -330,7 +339,7 @@ a.main-header-order:active svg {
   fill: #c5c5c5;
 }
 
-.header-bottom-button-logged-in:active {
+.header-bottom-button-logged-in:active span {
   color: #cacaca;
 }
 
@@ -350,21 +359,22 @@ a.main-header-order:active svg {
   width: 300px;
   margin: 0;
   padding: 12px;
-  padding-bottom: 10px;
+  padding-bottom: 11px;
 }
 
 .header-bottom-button-logged-in svg {
-  margin-top: 2px;
   fill: #c5c5c5;
 }
 
-.header-bottom-button-logged-in span {
-  margin-right: 17px;
+.header-bottom-profile span {
+  margin-left: 10px;
+  padding-top: 2px;
+  color: black;
 }
 
 .main-header-logged-in-actions {
   margin: 0;
-  padding: 5px 20px 0px;
+  padding: 6px 20px 0px;
 }
 
 .main-header-logged-in-actions a {
