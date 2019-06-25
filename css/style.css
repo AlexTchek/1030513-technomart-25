@@ -956,6 +956,10 @@ a.main-header-order:active svg {
   width: 300px;
 }
 
+.contacts p {
+  width: 220px;
+}
+
 h2 {
   font-size: 30px;
   line-height: 30px;
@@ -982,6 +986,10 @@ h2 {
 
 .index-columns .button {
   margin: 37px 0;
+}
+
+.about .narrow-p {
+  width: 400px;
 }
 
 .about .button {
