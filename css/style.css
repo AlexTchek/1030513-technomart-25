@@ -1588,6 +1588,8 @@ p.main-footer-address-phone {
 .catalog-wrapper {
   display: flex;
   justify-content: space-between;
+
+  margin-bottom: 4px;
 }
 
 .catalog-filter {
@@ -1858,14 +1860,6 @@ p.main-footer-address-phone {
   color: black;
 }
 
-.pagination-item a:not(.pagination-item-current):hover {
-  border: 1px solid #bdc6ca;
-}
-
-.pagination-item a:active {
-  border: 1px solid rgb(238, 54, 67, 1);
-}
-
 .pagination-item a {
   display: block;
 
@@ -1878,6 +1872,14 @@ p.main-footer-address-phone {
   border-radius: 3px;
 }
 
+.pagination-item a:not(.pagination-item-current):hover {
+  border: 1px solid #bdc6ca;
+}
+
+.pagination-item a:not(.pagination-item-current):active {
+  border: 1px solid rgb(238, 54, 67, 1);
+}
+
 .pagination-item-current a {
   color: white;
   background-color: #ee3643;
@@ -1888,6 +1890,35 @@ p.main-footer-address-phone {
   width: 140px;
 }
 
+.catalog-about-wrapper {
+  background-color: #f4f8f9;
+}
+
+.catalog-about {
+  padding-bottom: 34px;
+}
+
+.catalog-about h3 {
+  display: block;
+  margin: 0;
+  padding-top: 65px;
+  margin-bottom: 25px;
+
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+
+.catalog-about p {
+  display: block;
+  margin: 0;
+  margin-bottom: 35px;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  letter-spacing: 0.13px;
+}
 
 .modal {
   position: fixed;
