@@ -12,7 +12,7 @@
     <header class="main-header">
       <div class="main-header-top">
         <a class="logo main-header-logo" href="index.html">Техномарт</a>
-        <div class="main-header-search-wrapper">
+        <form method="GET" action="https://echo.htmlacademy.ru" class="main-header-search-wrapper">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px"
                 height="17px" viewBox="0 0 17 17" enable-background="new 0 0 17 17" xml:space="preserve">
             <g id="main-header-search-svg-id">
@@ -21,8 +21,9 @@
                 C10.532,2,13,4.467,13,7.5c0,3.032-2.468,5.5-5.5,5.5C4.467,13,2,10.532,2,7.5z"/>
             </g>
           </svg>
-          <input class="main-header-search" type="text" placeholder="Поиск:"/>
-        </div>
+          <input class="main-header-search" name="search-text" type="text" placeholder="Поиск:"/>
+          <input class="visually-hidden" tabindex="-1" type="submit"/>
+        </form>
         <a class="main-header-bookmarks" href="#">
           <svg version="1.1" id="main-header-bookmarks-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               width="14px" height="16px" viewBox="0 0 14 16" enable-background="new 0 0 14 16" xml:space="preserve">
