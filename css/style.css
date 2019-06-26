@@ -1942,9 +1942,17 @@ p.main-footer-address-phone {
   position: fixed;
   z-index: 2;
 
+  display: none;
+
   box-sizing: border-box;
 
   background-color: lightgray;
+}
+
+.modal-show {
+  display: block;
+
+  animation: bounce 0.6s;
 }
 
 .modal-close {
@@ -1955,6 +1963,7 @@ p.main-footer-address-phone {
   width: 32px;
   height: 32px;
 
+  z-index: inherit;
   font-size: 0;
   background-color: white;
   border: 0;
@@ -1986,17 +1995,27 @@ p.main-footer-address-phone {
 
 .modal-map {
   width: 940px;
+  height: 450px;
   bottom: 100px;
   left: 50%;
   margin-left: -470px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
-.modal-map form {
-  margin: 0;
-  padding: 0;
+.modal-map p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 
-  height: 450px;
+  margin: 0;
+}
+
+.modal-map iframe {
+  position: relative;
+  z-index: 2;
+
+  border: none;
 }
 
 .profile-photo {
