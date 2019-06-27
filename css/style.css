@@ -1427,8 +1427,12 @@ p.main-footer-address-phone {
   opacity: 0.7;
 }
 
-.filter-option:hover .filter-input-checkbox + label::after{
+.filter-option:hover .filter-input-checkbox + label::after {
   opacity: 1;
+}
+
+ .filter-option input[type="checkbox"]:disabled ~ label {
+  opacity: 0.5;
 }
 
 .filter-input-checkbox:checked + label::after {
@@ -1465,6 +1469,10 @@ p.main-footer-address-phone {
 
 .filter-option:hover .filter-input-radio + label::after {
   opacity: 1;
+}
+
+.filter-option input[type="radio"]:disabled ~ label {
+  opacity: 0.5;
 }
 
 .filter-input-radio:checked + label::after {
