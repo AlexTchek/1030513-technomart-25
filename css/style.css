@@ -1446,7 +1446,6 @@ p.main-footer-address-phone {
   opacity: 1;
 }
 
-
 .filter-input-radio:checked + label::after {
   content: "";
 
@@ -1815,6 +1814,19 @@ p.main-footer-address-phone {
   padding-bottom: 3px;
   margin-right: 1px;
   max-width: 100%;
+}
+
+.catalog-item a {
+  display: block;
+
+  padding: 0 15px;
+
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
+
+  color: black;
 }
 
 .catalog-item-price {
