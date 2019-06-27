@@ -730,7 +730,8 @@ a.main-header-order:active svg {
 .block-header {
   display: flex;
   justify-content: space-between;
-  align-items: bottom;;
+  align-items: bottom;
+
   padding: 25px;
   margin-bottom: 20px;
 
