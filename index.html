@@ -440,36 +440,6 @@
       <p><img src="img/map.jpg" width="940" height="446" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></p>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
-    <script>
-      var mapLink = document.querySelector(".map-crop");
-
-      var mapPopup = document.querySelector(".modal-map");
-      var mapClose = mapPopup.querySelector(".modal-close");
-
-      mapLink.addEventListener("click", function (evt) {
-        evt.preventDefault();
-        mapPopup.classList.add("modal-show");
-      });
-
-      mapClose.addEventListener("click", function (evt) {
-        evt.preventDefault();
-        mapPopup.classList.remove("modal-show");
-      });
-
-      window.addEventListener("keydown", function (evt) {
-        if (evt.keyCode === 27) {
-          evt.preventDefault();
-          if (mapPopup.classList.contains("modal-show")) {
-            mapPopup.classList.remove("modal-show");
-          }
-        }
-        if (evt.keyCode === 13) {
-          evt.preventDefault();
-          if (!mapPopup.classList.contains("modal-show")) {
-            mapPopup.classList.add("modal-show");
-          }
-        }
-      });
-    </script>
+    <script src="js/index.js"></script>
   </body>
 </html>
