@@ -98,7 +98,7 @@ a.logo:after {
 a.main-header-logo {
   font-size: 24px;
   padding-top: 13px;
-  padding-bottom: 11px;
+  padding-bottom: 8px;
 }
 
 a.main-header-logo:focus,
@@ -1078,6 +1078,7 @@ h2 {
 
 a.main-footer-logo {
   padding: 20px 0px;
+  padding-bottom: 17px;
 }
 
 a.main-footer-logo:focus,
