@@ -1688,7 +1688,7 @@ p.main-footer-address-phone {
   background: url("../img/new-flag.png") no-repeat 0 0;
 }
 
-.catalog-item .actions {
+.catalog-item-actions {
   display: none;
 }
 
@@ -1696,11 +1696,11 @@ p.main-footer-address-phone {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.catalog-item:hover .actions {
+.catalog-item:hover .catalog-item-actions {
   display: block;
 }
 
-.catalog-item .actions {
+.catalog-item-actions {
   position: absolute;
   top: 0;
   left: 0;
@@ -1714,8 +1714,8 @@ p.main-footer-address-phone {
   z-index: 10;
 }
 
-.catalog-item .actions .buy,
-.catalog-item .actions .bookmark {
+.catalog-item-actions .buy,
+.catalog-item-actions .bookmark {
   display: block;
   width: 129px;
   margin: 0 auto;
@@ -1735,11 +1735,11 @@ p.main-footer-address-phone {
   text-transform: uppercase;
 }
 
-.catalog-item .actions .buy {
+.catalog-item-actions .buy {
   position: relative;
 }
 
-.catalog-item .actions .buy::before {
+.catalog-item-actions .buy::before {
   content: "";
 
   position: absolute;
@@ -1755,37 +1755,37 @@ p.main-footer-address-phone {
   opacity: 0.5;
 }
 
-.catalog-item .actions .buy:hover {
+.catalog-item-actions .buy:hover {
   background-color: #5fbb2d;
   border-color: #5fbb2d;
   border-bottom-color: #367315;
 }
 
-.catalog-item .actions .buy:hover::before {
+.catalog-item-actions .buy:hover::before {
   opacity: 1;
 }
 
-.catalog-item .actions .buy:active {
+.catalog-item-actions .buy:active {
   background-color: #518534;
   border-color: #518534;
   border-bottom-color: #367315;
 }
 
-.catalog-item .actions .buy:active::before {
+.catalog-item-actions .buy:active::before {
   opacity: 1;
 }
 
-.catalog-item .actions .bookmark {
+.catalog-item-actions .bookmark {
   color: #32425c;
   background: white;
   border-bottom-color: #63a63e;
 }
 
-.catalog-item .actions .bookmark:hover {
+.catalog-item-actions .bookmark:hover {
   border-color: #32425c;
 }
 
-.catalog-item .actions .bookmark:active {
+.catalog-item-actions .bookmark:active {
   color: #d0d2d6;
   border-color: #c1c6ce;
 }
