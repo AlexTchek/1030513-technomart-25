@@ -969,7 +969,7 @@ a.main-header-order:active svg {
   width: 220px;
 }
 
-h2 {
+.block-caption {
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
@@ -1231,7 +1231,7 @@ p.main-footer-address-phone {
 
 }
 
-.inner-page h2 {
+.inner-page .block-caption  {
   font-family: "Cuprum", Arial, sans-serif;
 }
 
