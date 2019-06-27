@@ -616,6 +616,7 @@ a.main-header-order:active svg {
 
 .slider-controls label {
   display: inline-block;
+  vertical-align: top;
   margin: 0 3px;
 
   box-sizing: border-box;
@@ -1023,6 +1024,7 @@ h2 {
 .shipping-company-list {
   padding-left: 0;
   margin: 0;
+
   font-size: 18px;
   line-height: 20px;
   list-style-type: none;
@@ -1033,14 +1035,17 @@ h2 {
 }
 
 .shipping-company-list li::before {
+  display: inline-block;
+  vertical-align: middle;
+
   margin: 5px;
   margin-right: 11px;
   margin-left: 0px;
+
   content: "";
   background: #ee3643;
   width: 25px;
   height: 2px;
-  display: inline-block;
 }
 
 .main-footer ul {
@@ -1323,6 +1328,8 @@ p.main-footer-address-phone {
 
 .price-controls input {
   display: inline-block;
+  vertical-align: middle;
+
   width: 95px;
   padding: 6px 10px 8px;
 
@@ -1538,6 +1545,7 @@ p.main-footer-address-phone {
 
 .caption-order p {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .caption .order-control {
