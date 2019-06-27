@@ -427,6 +427,7 @@ a.main-header-order:active svg {
 
 .main-navigation-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   box-sizing: border-box;
   padding: 0 3px;
@@ -1116,6 +1117,7 @@ a.main-footer-logo:hover {
 
 .footer-navigation-list,
 .footer-link-list {
+  flex-wrap: wrap;
   flex: 1;
   justify-content: flex-end;
 }
@@ -1149,6 +1151,10 @@ p.main-footer-address-phone {
 .main-footer-top-line2 ul {
   padding-left: 0;
   margin: 0;
+}
+
+.main-footer-top-line2 p {
+  width: 350px;
 }
 
 .footer-link-list a {
