@@ -449,6 +449,14 @@ a.main-header-order:active svg {
   background-color: #293449;
 }
 
+.main-navigation li:active {
+  background-color: #1d2739;
+}
+
+.main-navigation li:active a {
+  color: #a1a4a8;
+}
+
 .container {
   width: 940px;
   margin: 0 auto;
