@@ -463,6 +463,12 @@
             mapPopup.classList.remove("modal-show");
           }
         }
+        if (evt.keyCode === 13) {
+          evt.preventDefault();
+          if (!mapPopup.classList.contains("modal-show")) {
+            mapPopup.classList.add("modal-show");
+          }
+        }
       });
     </script>
   </body>

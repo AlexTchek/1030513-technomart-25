@@ -1965,7 +1965,7 @@ p.main-footer-address-phone {
 
   z-index: inherit;
   font-size: 0;
-  background-color: white;
+  background-color: transparent;
   border: 0;
 
   cursor: pointer;
